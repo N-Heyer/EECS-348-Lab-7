@@ -1,5 +1,5 @@
-main: matrix_eecs_test.cpp
-	g++ -std=c++11 matrix_eecs_test.cpp -o main
+main: matrix.cpp
+	g++ -std=c++11 matrix.cpp -o main
 
 clean:
 	rm -f *.o main
